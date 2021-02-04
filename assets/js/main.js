@@ -103,7 +103,7 @@
 
   // Title Bar.
   $titleBar = $(
-    '<div id="titleBar">' +
+    '<div role="navigation" id="titleBar">' +
       '<a href="#header" class="toggle"></a>' +
       '<span class="title">' +
       $("#logo").html() +
